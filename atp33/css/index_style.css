@@ -1,0 +1,36 @@
+body {
+    background: #6800a5;
+    font-family: sans-serif;
+}
+
+.container {
+    background: #fff;
+    width: 50%;
+    border-radius: 2px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: teal;
+}
+
+a {
+    text-decoration: none;
+    color: #6800a5;
+    font-size: 18px;
+    padding: 5px;
+    border: solid 1px #6800a5;
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+a:hover {
+    color: teal;
+    border: solid 1px teal;
+    font-weight: bold;
+}
