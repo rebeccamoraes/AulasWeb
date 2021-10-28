@@ -1,0 +1,64 @@
+body {
+    background: #6800a5;
+    font-family: sans-serif;
+}
+
+.container {
+    background: #fff;
+    width: 60%;
+    border-radius: 2px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: teal;
+}
+
+table {
+    width: 100%;
+    min-width: 600px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid teal;
+    margin-bottom: 20px;
+}
+
+table thead tr {
+    height: 2em;
+    background: teal;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+table tbody tr {
+    height: 2em;
+    border: 1px solid teal;
+}
+
+td.actions a {
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    background-color: #cf9905;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 3px;
+    margin: 0 5px;
+}
+
+td.actions a.delete {
+    background-color: #000;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: teal;
+}
