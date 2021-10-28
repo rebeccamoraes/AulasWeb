@@ -6,7 +6,6 @@ window.onload = () => {
 }
 
 function salvar(event) {
-    event.preventDefault();
     let viagem = {};
     
     viagem.origem  = document.getElementById("origem").value;
@@ -19,4 +18,6 @@ function salvar(event) {
     viagens.push(viagem);
 
     localStorage.setItem("viagens", JSON.stringify(viagens));
+
+    alert("Viagem salva com sucesso!");
 }
