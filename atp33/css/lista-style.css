@@ -37,6 +37,21 @@ table tbody tr {
     border: 1px solid teal;
 }
 
+td.actions a {
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    background-color: #cf9905;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 3px;
+}
+
+td.actions a.delete {
+    background-color: #000;
+}
+
 a {
     text-decoration: none;
     font-weight: bold;
