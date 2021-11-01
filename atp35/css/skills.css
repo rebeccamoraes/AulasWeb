@@ -1,0 +1,45 @@
+body {
+    background: #F2CB05;
+}
+
+h3::before {
+    content: '<';
+    color: #F20574;
+}
+
+h3::after {
+    content: '>';
+    color: #F20574;
+}
+h3 span {
+    color: #fff;
+}
+
+.container div {
+    display: flex;
+    gap: 10%;
+}
+aside {
+    width: 40%;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 10px 20px;
+
+}
+
+ul li {
+    list-style: none;
+    flex: 1;
+    align-self: center;
+}
+
+ul li::before {
+    content: '#';
+    color: #93f205;
+}
