@@ -1,0 +1,47 @@
+body {
+    background: #F20574;
+}
+
+.container {
+    font-size: 26px;
+}
+
+.container form {
+    width: 30rem;
+}
+.field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label::before {
+    content: '<';
+    color: #F2CB05;
+}
+
+label::after {
+    content: '>';
+    color: #F2CB05;
+}
+
+form input {
+    width: 20rem;
+    height: 3em;
+    margin: 5px 0px;
+    border: none;
+    border-radius: 3px;
+}
+
+form textarea {
+    width: 20rem;
+    margin: 5px 0px;
+}
+
+form input[type=submit] {
+    width: 100%;
+    font-size: 20px;
+    color: #0c0c0c;
+    height: 3em;
+    cursor: pointer;
+}
