@@ -1,0 +1,20 @@
+body {
+    background: #0D0D0D;
+}
+
+ol {
+    color: #F2CB05;
+}
+
+ol li p {
+    color: #fff;
+    margin: 10px;
+}
+
+ol li p span {
+    color: #F25C05;
+}
+
+ol li p span.at {
+    color: #F20574;
+}

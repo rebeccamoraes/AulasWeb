@@ -5,20 +5,20 @@ function home() {
 
 function resumo() {
     let frame = document.getElementById("frame");
-    frame.src = "resumo.html";
+    frame.src = "resume.html";
 }
 
 function experiencias() {
     let frame = document.getElementById("frame");
-    frame.src = "experiencias.html";
+    frame.src = "experiences.html";
 }
 
 function habilidades() {
     let frame = document.getElementById("frame");
-    frame.src = "habilidades.html";
+    frame.src = "skills.html";
 }
 
 function contatos() {
     let frame = document.getElementById("frame");
-    frame.src = "contatos.html";
+    frame.src = "contact.html";
 }
